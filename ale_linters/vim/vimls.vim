@@ -8,6 +8,7 @@ call ale#Set('vim_vimls_config', {})
 function! ale_linters#vim#vimls#GetProjectRoot(buffer) abort
     let l:trigger_file_candidates = [
     \   '.vimrc',
+    \   'vimrc',
     \   'init.vim',
     \]
 
